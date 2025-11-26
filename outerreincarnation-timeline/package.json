@@ -2,7 +2,7 @@
   "name": "outerreincarnation-timeline",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://ls200.github.io/OuterReincarnation-timeline-maps",
+  "homepage": "https://ls200.github.io/outerReincarnationTimeline/",
   "type": "module",
   "scripts": {
     "predeploy": "npm run build",
