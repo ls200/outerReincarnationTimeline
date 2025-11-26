@@ -1,0 +1,114 @@
+/*range input*/
+.slidecontainer {
+    width: 100%;
+    position: fixed;
+    top: 10px;
+    z-index: 1000;
+}
+
+.slider {
+    width: 100%;
+    height: 15px;
+    border-radius: 5px;
+    background: #d3d3d3;
+    outline: none;
+    opacity: 0.3;
+    -webkit-transition: .2s;
+    transition: opacity .2s;
+}
+
+.slider:hover {
+    opacity: 1;
+}
+
+.slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background: #04AA6D;
+    cursor: pointer;
+}
+
+.slider::-moz-range-thumb {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background: #04AA6D;
+    cursor: pointer;
+}
+
+/*Map Container*/
+/*
+.map-container {
+    height: 2000px;
+    width: 1900px;
+}
+    */
+
+.map-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+#_01_1001years {
+    z-index: 0;
+}
+
+#_02_850years {
+    z-index: 10;
+}
+
+#_03_800years {
+    z-index: 20;
+}
+
+#_04_765years {
+    z-index: 30;
+}
+
+#_05_725years {
+    z-index: 40;
+}
+
+#_06_650years {
+    z-index: 50;
+}
+
+#_07_550years {
+    z-index: 60;
+}
+
+#_08_510years {
+    z-index: 70;
+}
+
+#_09_450years {
+    z-index: 80;
+}
+
+#_10_375years {
+    z-index: 90;
+}
+
+#_11_250years {
+    z-index: 100;
+}
+
+#_12_165years {
+    z-index: 110;
+}
+
+#_13_100years {
+    z-index: 120;
+}
+
+#_14_20years {
+    z-index: 130;
+}
+
+#_15_presenttime {
+    z-index: 140;
+}
